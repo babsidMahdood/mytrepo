@@ -1,0 +1,66 @@
+CREATE Table User(
+  Id int primary key,
+  FirstName VARCHAR(40),
+  LastName VARCHAR(40),
+  EmpCode int,
+  Email VARCHAR(40),
+  Phone VARCHAR(40),
+  RoleId int,
+  AddressId int
+)
+CREATE Table Role(
+  Id int,
+  Name Varchar(40),
+  Description Varchar(a40),
+  CreatedBy Varchar(40),
+  CreatedDate datetime,
+  FOREIGN KEY (id) REFERENCES User(RoleId)
+)
+
+CREATE Table Address(
+  Id inT,
+  AddressName Varchar(40),
+  City Varchar(40),
+  State Varchar(40),
+  PinCode Varchar(40),
+  IsActive boolean,
+  IsDeleted boolean,
+  FOREIGN KEY (id) REFERENCES User(AddressId)
+  
+)
+
+
+for learning certification related query for reimbursement.
+babita will support.
+
+Srikant.naidu@incedoinc.com
+Hr related contact
+
+if we add paytm wallet for meal allowance then will it be deducted from the in-hand salary?
+
+
+
+29/07/22
+I am in Data team.
+I have not assigned with the task for today so i studied more about ms sql sever
+ and done some hands-on in github. same i have not rec
+
+
+
+
+
+01/08/22
+I am in Data team. I have learned and watched some tutorials about .Net and currently learning .Net Core API CRUD 
+operations and also done some database related queries.
+
+
+
+
+02/08/22
+I am from Data team and Today I learned .Net core API CRUD operations and done database queries like create and
+use functions in SQL Server. and cloned the backend repo for the task.
+
+User controller
+
+
+
